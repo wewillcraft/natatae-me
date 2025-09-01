@@ -1,0 +1,18 @@
+{
+	"recommendations": [
+		"biomejs.biome",
+		"bradlc.vscode-tailwindcss",
+		"christian-kohler.path-intellisense",
+		"donjayamanne.githistory",
+		"dsznajder.es7-react-js-snippets",
+		"eamodio.gitlens",
+		"editorconfig.editorconfig",
+		"formulahendry.auto-rename-tag",
+		"mikestead.dotenv",
+		"mylesmurphy.prettify-ts",
+		"naumovs.color-highlight",
+		"oderwat.indent-rainbow",
+		"usernamehw.errorlens",
+		"yoavbls.pretty-ts-errors"
+	]
+}
