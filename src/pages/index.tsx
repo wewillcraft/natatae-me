@@ -74,7 +74,7 @@ export default function Home() {
 		<>
 			<Head>
 				<title>
-					NATATAE ME! - Real reviews from real Filipinos in real emergencies
+					NATATAE ME! Real reviews from real Filipinos in real emergencies
 				</title>
 				<meta
 					name="description"
@@ -82,7 +82,7 @@ export default function Home() {
 				/>
 				<meta
 					property="og:title"
-					content="NATATAE ME! - Find Clean Toilets Now"
+					content="NATATAE ME! Real reviews from real Filipinos in real emergencies"
 				/>
 				<meta
 					property="og:description"
@@ -330,7 +330,7 @@ export default function Home() {
 								clipRule="evenodd"
 							/>
 						</svg>
-						<span>View the source on GitHub</span>
+						<span>View the source code on GitHub</span>
 					</Link>
 				</footer>
 			</main>
