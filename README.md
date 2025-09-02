@@ -150,7 +150,3 @@ We would like to thank:
 - Grab/Angkas drivers who know all the best toilet stops
 - The person who invented the tabo
 - You, for contributing to toilet transparency in the Philippines!
-
-## Attribution
-
-See [ATTRIBUTION.md](ATTRIBUTION.md) for asset credits and licenses.
