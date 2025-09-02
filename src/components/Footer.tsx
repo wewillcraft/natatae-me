@@ -10,7 +10,7 @@ export default function Footer() {
 
 				<div className="flex flex-col items-center gap-6">
 					<div className="w-full">
-						<nav className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs text-gray-400 uppercase tracking-wider">
+						<nav className="flex flex-wrap justify-center gap-x-3 gap-y-2 px-4 text-[10px] text-gray-400 uppercase tracking-wider sm:text-xs sm:gap-x-6">
 							<Link href="/about" className="hover:text-white transition-colors">
 								About
 							</Link>
@@ -18,13 +18,13 @@ export default function Footer() {
 								Contact
 							</Link>
 							<Link href="/terms" className="hover:text-white transition-colors">
-								Terms of Service
+								Terms
 							</Link>
 							<Link href="/privacy" className="hover:text-white transition-colors">
-								Privacy Policy
+								Privacy
 							</Link>
 							<Link href="/cookies" className="hover:text-white transition-colors">
-								Cookie Policy
+								Cookies
 							</Link>
 							<Link href="/disclaimer" className="hover:text-white transition-colors">
 								Disclaimer
