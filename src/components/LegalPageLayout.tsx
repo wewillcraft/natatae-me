@@ -28,6 +28,28 @@ export default function LegalPageLayout({
 						`${title} for NATATAE ME! - The Philippines' crowd-sourced public toilet finder.`
 					}
 				/>
+				
+				{/* OpenGraph tags */}
+				<meta property="og:title" content={`${title} - NATATAE ME!`} />
+				<meta 
+					property="og:description" 
+					content={description || `${title} for NATATAE ME! - The Philippines' crowd-sourced public toilet finder.`} 
+				/>
+				<meta property="og:type" content="website" />
+				<meta property="og:image" content="https://natatae.me/og.png" />
+				<meta property="og:image:width" content="1200" />
+				<meta property="og:image:height" content="630" />
+				<meta property="og:site_name" content="NATATAE ME!" />
+				<meta property="og:locale" content="en_PH" />
+				
+				{/* Twitter Card tags */}
+				<meta name="twitter:card" content="summary_large_image" />
+				<meta name="twitter:title" content={`${title} - NATATAE ME!`} />
+				<meta 
+					name="twitter:description" 
+					content={description || `${title} for NATATAE ME! - The Philippines' crowd-sourced public toilet finder.`} 
+				/>
+				<meta name="twitter:image" content="https://natatae.me/og.png" />
 			</Head>
 
 			<main className="min-h-screen bg-gradient-to-b from-slate-50 to-white">

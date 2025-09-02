@@ -92,6 +92,17 @@ export default function Home() {
 				/>
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="https://natatae.me" />
+				<meta property="og:image" content="https://natatae.me/og.png" />
+				<meta property="og:image:width" content="1200" />
+				<meta property="og:image:height" content="630" />
+				<meta property="og:site_name" content="NATATAE ME!" />
+				<meta property="og:locale" content="en_PH" />
+
+				{/* Twitter Card tags */}
+				<meta name="twitter:card" content="summary_large_image" />
+				<meta name="twitter:title" content="NATATAE ME! Find Clean Toilets in the Philippines" />
+				<meta name="twitter:description" content="The Philippines' crowd-sourced public toilet finder. Real reviews from real Filipinos in real emergencies." />
+				<meta name="twitter:image" content="https://natatae.me/og.png" />
 				<link rel="icon" href="/favicon.ico" />
 				<link
 					rel="apple-touch-icon"
