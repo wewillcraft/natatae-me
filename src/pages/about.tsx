@@ -4,7 +4,7 @@ export default function AboutPage() {
 	return (
 		<LegalPageLayout
 			title="About NATATAE ME!"
-			description="Learn about NATATAE ME! - The Philippines' crowd-sourced public toilet finder born from real emergencies."
+			description="Learn about NATATAE ME! The Philippines' crowd-sourced public toilet finder born from real emergencies."
 			lastUpdated="September 2025"
 		>
 			<section className="space-y-6">

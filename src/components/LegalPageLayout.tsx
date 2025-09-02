@@ -25,29 +25,30 @@ export default function LegalPageLayout({
 					name="description"
 					content={
 						description ||
-						`${title} for NATATAE ME! - The Philippines' crowd-sourced public toilet finder.`
+						`${title} for NATATAE ME! The Philippines' crowd-sourced public toilet finder.`
 					}
 				/>
-				
+
 				{/* OpenGraph tags */}
 				<meta property="og:title" content={`${title} - NATATAE ME!`} />
-				<meta 
-					property="og:description" 
-					content={description || `${title} for NATATAE ME! - The Philippines' crowd-sourced public toilet finder.`} 
+				<meta
+					property="og:description"
+					content={description || `${title} for NATATAE ME! The Philippines' crowd-sourced public toilet finder.`}
 				/>
 				<meta property="og:type" content="website" />
 				<meta property="og:image" content="https://natatae.me/og.png" />
 				<meta property="og:image:width" content="1200" />
 				<meta property="og:image:height" content="630" />
+				<meta property="og:image:alt" content="NATATAE ME! The Philippines' crowd-sourced public toilet finder" />
 				<meta property="og:site_name" content="NATATAE ME!" />
 				<meta property="og:locale" content="en_PH" />
-				
+
 				{/* Twitter Card tags */}
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:title" content={`${title} - NATATAE ME!`} />
-				<meta 
-					name="twitter:description" 
-					content={description || `${title} for NATATAE ME! - The Philippines' crowd-sourced public toilet finder.`} 
+				<meta
+					name="twitter:description"
+					content={description || `${title} for NATATAE ME! The Philippines' crowd-sourced public toilet finder.`}
 				/>
 				<meta name="twitter:image" content="https://natatae.me/og.png" />
 			</Head>
@@ -66,7 +67,7 @@ export default function LegalPageLayout({
 				<div className="mx-auto max-w-4xl px-4 py-12">
 					<div className="rounded-2xl bg-white p-8 shadow-lg">
 						<h1 className="mb-6 text-4xl font-bold text-gray-900">{title}</h1>
-						
+
 						{lastUpdated && (
 							<p className="mb-8 text-sm text-gray-500">
 								Last updated: {lastUpdated}
